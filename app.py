@@ -75,7 +75,7 @@ if st.button("✨ Generate Ebook (Bayar 1 🪙)", type="primary", use_container_
     else:
         with st.spinner("🔮 AI sedang meracik ebook premium Anda..."):
             try:
-                model = genai.GenerativeModel('gemini-pro')
+                model = genai.GenerativeModel('gemini-1.5-flash')
                 
                 # Merakit instruksi (Prompt) Super Spesifik
                 prompt = f"""
